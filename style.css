@@ -1,12 +1,16 @@
+
 h1 {
-    color: #008989;
+    color: #0F8989;
 }
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, .5fr));
+    grid-gap: 2rem;
     width: 100%;
-    justify-content: space-around;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
 }
 div {
-    padding: 20px;
-    
+    padding: 20px;    
 }
