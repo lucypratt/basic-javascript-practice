@@ -1,5 +1,8 @@
-
+* {
+    font-family: dosis;
+}
 h1 {
+    
     color: #0F8989;
 }
 main {
@@ -11,6 +14,7 @@ main {
     margin: 0 auto;
     margin-bottom: 6rem;
 }
-div {
-    padding: 20px;    
+.filmDiv {
+    background-color: purple;
+    padding: 1rem;    
 }

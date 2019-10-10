@@ -10,6 +10,7 @@ films.forEach(function(film) {
     let filmTitle = document.createElement("h1");
     let filmCrawl = document.createElement('p');
 
+    filmDiv.setAttribute("class", "filmDiv");
     filmTitle.textContent = film.title;
     filmCrawl.textContent = film.opening_crawl;
 
