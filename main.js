@@ -51,3 +51,8 @@ films.forEach(function(film) {
     }
 
   }
+
+  const maleCharacters = people.filter(person => person.gender === 'male');
+  const femaleCharacters = people.filter(person => person.gender === 'female');
+  console.log(maleCharacters);
+  console.log(femaleCharacters);
