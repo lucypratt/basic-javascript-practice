@@ -29,7 +29,7 @@ films.forEach(function(film) {
     let charNum = getCharNumber(person.url);
 
     personDiv.setAttribute("class", "personDiv");
-    pic.setAttribute("id", 'pic');
+    pic.setAttribute("id", 'pic');  
     name.textContent = person.name;
     gender.textContent = person.gender;
     pic.src = `https://starwars-visualguide.com/assets/img/characters/${charNum}.jpg`;
